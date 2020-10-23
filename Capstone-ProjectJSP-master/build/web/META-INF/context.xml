@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context path="/CAPSTONE">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" 
+            logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" 
+            name="jdbc/tandoorigrilldb" password="password" removeAbandoned="true" 
+            removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/tandoorigrilldb?autoReconnect=true" username="root"/>
+</Context>
+<!-- use for database in aws -->
+<!--    This is online context.
+<Context path="/CAPSTONE">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" 
+            logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" 
+            name="jdbc/tandoorigrilldb" password="password" removeAbandoned="true" 
+            removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://capstonedatabase.cxxpzkl5egue.us-west-2.rds.amazonaws.com:3306/tandoorigrilldb?zeroDateTimeBehavior=convertToNull" username="root"/>
+</Context>
+-->
+<!--<Context path="/CAPSTONE">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/tandoorigrilldb" password="password" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/tandoorigrilldb?autoReconnect=true" username="root"/>
+</Context>-->
